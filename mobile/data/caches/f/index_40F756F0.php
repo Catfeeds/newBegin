@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:10:{i:0;s:61:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/index.dwt";i:1;s:75:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/ad_position.lbi";i:2;s:76:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/new_articles.lbi";i:3;s:83:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_promotion.lbi";i:4;s:73:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/group_buy.lbi";i:5;s:78:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_best.lbi";i:6;s:77:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_new.lbi";i:7;s:77:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_hot.lbi";i:8;s:73:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/cat_goods.lbi";i:9;s:75:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/page_footer.lbi";}s:7:"expires";i:1542188489;s:8:"maketime";i:1542186689;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:10:{i:0;s:61:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/index.dwt";i:1;s:75:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/ad_position.lbi";i:2;s:76:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/new_articles.lbi";i:3;s:83:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_promotion.lbi";i:4;s:73:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/group_buy.lbi";i:5;s:78:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_best.lbi";i:6;s:77:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_new.lbi";i:7;s:77:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_hot.lbi";i:8;s:73:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/cat_goods.lbi";i:9;s:75:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/page_footer.lbi";}s:7:"expires";i:1542189518;s:8:"maketime";i:1542187718;}<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8" />
@@ -1555,9 +1555,9 @@ $(function() {
   wx.config({
     debug: false,
     appId: '',
-    timestamp: 1542186690,
-    nonceStr: 'jhNHj8vTOolEzJxz',
-    signature: '572a25c3d3d317f30072fd548c26ae6d94553e00',
+    timestamp: 1542187719,
+    nonceStr: 'RgbluYt3x9cyaPEj',
+    signature: '799091404092020edfa51a94655b123eeb85f410',
     jsApiList: [
         'onMenuShareTimeline',
         'onMenuShareAppMessage' 
