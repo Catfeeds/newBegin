@@ -4451,8 +4451,9 @@ function exception_handler($errno, $errstr, $errfile, $errline)
 function get_image_path($goods_id, $image='', $thumb=false, $call='goods', $del=false)
 
 {
+    $url = empty($image) ? $GLOBALS['_CFG']['no_picture'] : 'new/newBegin/' . $image;
 
-    $url = empty($image) ? $GLOBALS['_CFG']['no_picture'] : $image;
+    // echo $url;exit;
 
     return $url;
 

@@ -745,7 +745,6 @@ function get_promote_goods($cats = '')
     foreach ($result AS $idx => $row)
 
     {
-
         if ($row['promote_price'] > 0)
 
         {
@@ -793,7 +792,7 @@ function get_promote_goods($cats = '')
 
     }
 
-
+    // var_dump($goods);exit;
 
     return $goods;
 

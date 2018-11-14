@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:10:{i:0;s:61:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/index.dwt";i:1;s:75:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/ad_position.lbi";i:2;s:76:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/new_articles.lbi";i:3;s:83:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_promotion.lbi";i:4;s:73:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/group_buy.lbi";i:5;s:78:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_best.lbi";i:6;s:77:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_new.lbi";i:7;s:77:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_hot.lbi";i:8;s:73:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/cat_goods.lbi";i:9;s:75:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/page_footer.lbi";}s:7:"expires";i:1542189518;s:8:"maketime";i:1542187718;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:10:{i:0;s:61:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/index.dwt";i:1;s:75:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/ad_position.lbi";i:2;s:76:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/new_articles.lbi";i:3;s:83:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_promotion.lbi";i:4;s:73:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/group_buy.lbi";i:5;s:78:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_best.lbi";i:6;s:77:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_new.lbi";i:7;s:77:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/recommend_hot.lbi";i:8;s:73:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/cat_goods.lbi";i:9;s:75:"D:/wamp/wamp/www/fxmsc_v2.0/mobile/themes/shengxian/library/page_footer.lbi";}s:7:"expires";i:1542207717;s:8:"maketime";i:1542205917;}<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8" />
@@ -274,7 +274,7 @@ TouchSlide({
     <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=102">
-                <img src="/images/201707/thumb_img/102_thumb_G_1499030381370.jpg" alt="新鲜猪扒肉" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/102_thumb_G_1499030381370.jpg" alt="新鲜猪扒肉" />
             </a>
             <div class="goods_center">
 				 
@@ -287,7 +287,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=4">
-                <img src="/images/201707/thumb_img/4_thumb_G_1498959094209.jpg" alt="通菜（通心菜、空心菜、竹叶菜）" />
+                <img src="/fxmsc_v2.0/data/images/201707/thumb_img/4_thumb_G_1498959094209.jpg" alt="通菜（通心菜、空心菜、竹叶菜）" />
             </a>
             <div class="goods_center">
 				 
@@ -300,7 +300,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=71">
-                <img src="/images/201707/thumb_img/71_thumb_G_1498970104133.jpg" alt="鲁花5S一级花生油" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/71_thumb_G_1498970104133.jpg" alt="鲁花5S一级花生油" />
             </a>
             <div class="goods_center">
 				 
@@ -313,7 +313,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=75">
-                <img src="/images/201707/thumb_img/75_thumb_G_1498970514133.jpg" alt="新疆Q枣量贩装1000g大包" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/75_thumb_G_1498970514133.jpg" alt="新疆Q枣量贩装1000g大包" />
             </a>
             <div class="goods_center">
 				 
@@ -336,19 +336,19 @@ TouchSlide({
     <div id="picScrol5" class="picScrol5">
         <div class="bd">
             <ul>
-                                <li><div class="groupimg"><a href="group_buy.php?act=view&amp;id=7"><img src="/images/201707/thumb_img/74_thumb_G_1498970415695.jpg" /></a></div>
+                                <li><div class="groupimg"><a href="group_buy.php?act=view&amp;id=7"><img src="/fxmsc_v2.0/images/201707/thumb_img/74_thumb_G_1498970415695.jpg" /></a></div>
 		<div class="grouptit">真空板栗肉（250克/份...</div>
 		<div class="groupprice"><span class="last_price">￥<span>10.0</span></span><span class="zhekou">8.5折</span></div>
                 </li>
-                                                <li><div class="groupimg"><a href="group_buy.php?act=view&amp;id=6"><img src="/images/201707/thumb_img/66_thumb_G_1498969633814.jpg" /></a></div>
+                                                <li><div class="groupimg"><a href="group_buy.php?act=view&amp;id=6"><img src="/fxmsc_v2.0/images/201707/thumb_img/66_thumb_G_1498969633814.jpg" /></a></div>
 		<div class="grouptit">鲁花5S一级花生油4L ...</div>
 		<div class="groupprice"><span class="last_price">￥<span>20.0</span></span><span class="zhekou">1.5折</span></div>
                 </li>
-                </ul><ul>                                <li><div class="groupimg"><a href="group_buy.php?act=view&amp;id=5"><img src="/images/201707/thumb_img/17_thumb_G_1498963505323.jpg" /></a></div>
+                </ul><ul>                                <li><div class="groupimg"><a href="group_buy.php?act=view&amp;id=5"><img src="/fxmsc_v2.0/images/201707/thumb_img/17_thumb_G_1498963505323.jpg" /></a></div>
 		<div class="grouptit">一点红冬枣</div>
 		<div class="groupprice"><span class="last_price">￥<span>8.0</span></span><span class="zhekou">4.8折</span></div>
                 </li>
-                                                <li><div class="groupimg"><a href="group_buy.php?act=view&amp;id=4"><img src="/images/201707/thumb_img/20_thumb_G_1498963910237.jpg" /></a></div>
+                                                <li><div class="groupimg"><a href="group_buy.php?act=view&amp;id=4"><img src="/fxmsc_v2.0/images/201707/thumb_img/20_thumb_G_1498963910237.jpg" /></a></div>
 		<div class="grouptit">国产黑布林</div>
 		<div class="groupprice"><span class="last_price">￥<span>20.0</span></span><span class="zhekou">11.1折</span></div>
                 </li>
@@ -365,7 +365,7 @@ TouchSlide({
     <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=102">
-                <img src="/images/201707/thumb_img/102_thumb_G_1499030381370.jpg" alt="新鲜猪扒肉" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/102_thumb_G_1499030381370.jpg" alt="新鲜猪扒肉" />
             </a>
             <div class="goods_center">
 				 
@@ -375,7 +375,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=4">
-                <img src="/images/201707/thumb_img/4_thumb_G_1498959094209.jpg" alt="通菜（通心菜、空心菜、竹叶菜）" />
+                <img src="/fxmsc_v2.0/data/images/201707/thumb_img/4_thumb_G_1498959094209.jpg" alt="通菜（通心菜、空心菜、竹叶菜）" />
             </a>
             <div class="goods_center">
 				 
@@ -385,7 +385,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=73">
-                <img src="/images/201707/thumb_img/73_thumb_G_1498970320832.jpg" alt="Aji酵母减盐味苏打饼干472.5g/袋早餐牛奶休闲零食" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/73_thumb_G_1498970320832.jpg" alt="Aji酵母减盐味苏打饼干472.5g/袋早餐牛奶休闲零食" />
             </a>
             <div class="goods_center">
 				 
@@ -395,7 +395,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=78">
-                <img src="/images/201707/thumb_img/78_thumb_G_1498970798201.jpg" alt="姚太太 九制半梅160g 蜜饯果干话梅子 休闲零食小吃" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/78_thumb_G_1498970798201.jpg" alt="姚太太 九制半梅160g 蜜饯果干话梅子 休闲零食小吃" />
             </a>
             <div class="goods_center">
 				 
@@ -415,7 +415,7 @@ TouchSlide({
     <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=10">
-                <img src="/images/201707/thumb_img/10_thumb_G_1498962481532.jpg" alt="小葱" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/10_thumb_G_1498962481532.jpg" alt="小葱" />
             </a>
             <div class="goods_center">
 				 
@@ -425,7 +425,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=14">
-                <img src="/images/201707/thumb_img/14_thumb_G_1498962975550.jpg" alt="烟台红富士5斤礼盒装" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/14_thumb_G_1498962975550.jpg" alt="烟台红富士5斤礼盒装" />
             </a>
             <div class="goods_center">
 				 
@@ -435,7 +435,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=18">
-                <img src="/images/201707/thumb_img/18_thumb_G_1498963636615.jpg" alt="江西脐橙" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/18_thumb_G_1498963636615.jpg" alt="江西脐橙" />
             </a>
             <div class="goods_center">
 				 
@@ -445,7 +445,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=66">
-                <img src="/images/201707/thumb_img/66_thumb_G_1498969633814.jpg" alt="鲁花5S一级花生油4L 物理压榨 食用油 健康 调味" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/66_thumb_G_1498969633814.jpg" alt="鲁花5S一级花生油4L 物理压榨 食用油 健康 调味" />
             </a>
             <div class="goods_center">
 				 
@@ -465,7 +465,7 @@ TouchSlide({
     <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=5">
-                <img src="/images/201707/thumb_img/5_thumb_G_1498959171675.jpg" alt="小白菜" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/5_thumb_G_1498959171675.jpg" alt="小白菜" />
             </a>
             <div class="goods_center">
 				 
@@ -475,7 +475,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=11">
-                <img src="/images/201707/thumb_img/11_thumb_G_1498962539331.jpg" alt="生姜" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/11_thumb_G_1498962539331.jpg" alt="生姜" />
             </a>
             <div class="goods_center">
 				 
@@ -485,7 +485,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=67">
-                <img src="/images/201707/thumb_img/67_thumb_G_1498969691344.jpg" alt="金龙鱼 葵花食用调和油5L+花生浓香食用调和油5L" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/67_thumb_G_1498969691344.jpg" alt="金龙鱼 葵花食用调和油5L+花生浓香食用调和油5L" />
             </a>
             <div class="goods_center">
 				 
@@ -495,7 +495,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=75">
-                <img src="/images/201707/thumb_img/75_thumb_G_1498970514133.jpg" alt="新疆Q枣量贩装1000g大包" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/75_thumb_G_1498970514133.jpg" alt="新疆Q枣量贩装1000g大包" />
             </a>
             <div class="goods_center">
 				 
@@ -516,7 +516,7 @@ TouchSlide({
         <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=20">
-                <img src="/images/201707/thumb_img/20_thumb_G_1498963910237.jpg" alt="国产黑布林" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/20_thumb_G_1498963910237.jpg" alt="国产黑布林" />
             </a>
             <div class="goods_center">
 				 
@@ -526,7 +526,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=19">
-                <img src="/images/201707/thumb_img/19_thumb_G_1498963709612.jpg" alt="福建蜜柚" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/19_thumb_G_1498963709612.jpg" alt="福建蜜柚" />
             </a>
             <div class="goods_center">
 				 
@@ -536,7 +536,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=18">
-                <img src="/images/201707/thumb_img/18_thumb_G_1498963636615.jpg" alt="江西脐橙" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/18_thumb_G_1498963636615.jpg" alt="江西脐橙" />
             </a>
             <div class="goods_center">
 				 
@@ -546,7 +546,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=17">
-                <img src="/images/201707/thumb_img/17_thumb_G_1498963505323.jpg" alt="一点红冬枣" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/17_thumb_G_1498963505323.jpg" alt="一点红冬枣" />
             </a>
             <div class="goods_center">
 				 
@@ -583,7 +583,7 @@ TouchSlide({
         <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=71">
-                <img src="/images/201707/thumb_img/71_thumb_G_1498970104133.jpg" alt="鲁花5S一级花生油" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/71_thumb_G_1498970104133.jpg" alt="鲁花5S一级花生油" />
             </a>
             <div class="goods_center">
 				 
@@ -593,7 +593,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=70">
-                <img src="/images/201707/thumb_img/70_thumb_G_1498969987562.jpg" alt="融氏/Rongs 玉米油5L 食用油 粮油批发 烹饪 非转基因 绿色认证" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/70_thumb_G_1498969987562.jpg" alt="融氏/Rongs 玉米油5L 食用油 粮油批发 烹饪 非转基因 绿色认证" />
             </a>
             <div class="goods_center">
 				 
@@ -603,7 +603,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=69">
-                <img src="/images/201707/thumb_img/69_thumb_G_1498969877383.jpg" alt="欧丽薇兰 纯正橄榄油1.6L/桶 食用油 原油进口" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/69_thumb_G_1498969877383.jpg" alt="欧丽薇兰 纯正橄榄油1.6L/桶 食用油 原油进口" />
             </a>
             <div class="goods_center">
 				 
@@ -613,7 +613,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=68">
-                <img src="/images/201707/thumb_img/68_thumb_G_1498969806412.jpg" alt="鲁花 非转基因 特香菜籽油5L 物理压榨 食用油 食品" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/68_thumb_G_1498969806412.jpg" alt="鲁花 非转基因 特香菜籽油5L 物理压榨 食用油 食品" />
             </a>
             <div class="goods_center">
 				 
@@ -654,7 +654,7 @@ TouchSlide({
         <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=81">
-                <img src="/images/201707/thumb_img/81_thumb_G_1498971165827.jpg" alt="佳宝加应子500g话梅 李子干梅子" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/81_thumb_G_1498971165827.jpg" alt="佳宝加应子500g话梅 李子干梅子" />
             </a>
             <div class="goods_center">
 				 
@@ -664,7 +664,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=80">
-                <img src="/images/201707/thumb_img/80_thumb_G_1498971100525.jpg" alt="大白兔原味奶糖227g/包 原味奶糖" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/80_thumb_G_1498971100525.jpg" alt="大白兔原味奶糖227g/包 原味奶糖" />
             </a>
             <div class="goods_center">
 				 
@@ -674,7 +674,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=79">
-                <img src="/images/201707/thumb_img/79_thumb_G_1498970940118.jpg" alt="固本堂阿胶红糖姜茶200g 速溶颗粒老姜母茶 共20袋" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/79_thumb_G_1498970940118.jpg" alt="固本堂阿胶红糖姜茶200g 速溶颗粒老姜母茶 共20袋" />
             </a>
             <div class="goods_center">
 				 
@@ -684,7 +684,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=78">
-                <img src="/images/201707/thumb_img/78_thumb_G_1498970798201.jpg" alt="姚太太 九制半梅160g 蜜饯果干话梅子 休闲零食小吃" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/78_thumb_G_1498970798201.jpg" alt="姚太太 九制半梅160g 蜜饯果干话梅子 休闲零食小吃" />
             </a>
             <div class="goods_center">
 				 
@@ -721,7 +721,7 @@ TouchSlide({
         <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=91">
-                <img src="/images/201707/thumb_img/91_thumb_G_1498971858713.jpg" alt="君叶红BIN208西拉红葡萄酒750ml" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/91_thumb_G_1498971858713.jpg" alt="君叶红BIN208西拉红葡萄酒750ml" />
             </a>
             <div class="goods_center">
 				 
@@ -731,7 +731,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=90">
-                <img src="/images/201707/thumb_img/90_thumb_G_1498971765946.jpg" alt="长白山精选全汁山葡萄酒1.48L" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/90_thumb_G_1498971765946.jpg" alt="长白山精选全汁山葡萄酒1.48L" />
             </a>
             <div class="goods_center">
 				 
@@ -741,7 +741,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=89">
-                <img src="/images/201707/thumb_img/89_thumb_G_1498971715645.jpg" alt="进口王朝朗格多克红葡萄酒750ml" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/89_thumb_G_1498971715645.jpg" alt="进口王朝朗格多克红葡萄酒750ml" />
             </a>
             <div class="goods_center">
 				 
@@ -751,7 +751,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=88">
-                <img src="/images/201707/thumb_img/88_thumb_G_1498971627257.jpg" alt="怡宝纯净水555ML" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/88_thumb_G_1498971627257.jpg" alt="怡宝纯净水555ML" />
             </a>
             <div class="goods_center">
 				 
@@ -788,7 +788,7 @@ TouchSlide({
         <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=101">
-                <img src="/images/201707/thumb_img/101_thumb_G_1499029918294.jpg" alt="柯邑堂云南文山春三七粉12头正品野生田七头破壁正宗超细粉" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/101_thumb_G_1499029918294.jpg" alt="柯邑堂云南文山春三七粉12头正品野生田七头破壁正宗超细粉" />
             </a>
             <div class="goods_center">
 				 
@@ -798,7 +798,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=100">
-                <img src="/images/201707/thumb_img/100_thumb_G_1498973347370.jpg" alt="新款高档野生海参包装盒 俄文海参礼盒 至尊版海参皮盒" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/100_thumb_G_1498973347370.jpg" alt="新款高档野生海参包装盒 俄文海参礼盒 至尊版海参皮盒" />
             </a>
             <div class="goods_center">
 				 
@@ -808,7 +808,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=99">
-                <img src="/images/201707/thumb_img/99_thumb_G_1498973150054.jpg" alt="新鲜冬虫夏草10根玉树野生虫草正品0.5克1根" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/99_thumb_G_1498973150054.jpg" alt="新鲜冬虫夏草10根玉树野生虫草正品0.5克1根" />
             </a>
             <div class="goods_center">
 				 
@@ -818,7 +818,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=98">
-                <img src="/images/201707/thumb_img/98_thumb_G_1498973066165.jpg" alt="山参 长白山野生人参 东北野山参 人参 林下参 38元一支15克以上" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/98_thumb_G_1498973066165.jpg" alt="山参 长白山野生人参 东北野山参 人参 林下参 38元一支15克以上" />
             </a>
             <div class="goods_center">
 				 
@@ -845,7 +845,7 @@ TouchSlide({
         <div class="flex flex-f-row">
                 <div class="goodsItem flex_in">
             <a href="goods.php?id=111">
-                <img src="/images/201707/thumb_img/111_thumb_G_1499031717433.jpg" alt="测试" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/111_thumb_G_1499031717433.jpg" alt="测试" />
             </a>
             <div class="goods_center">
 				 
@@ -855,7 +855,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=110">
-                <img src="/images/201707/thumb_img/110_thumb_G_1499031432821.jpg" alt="泰国榴莲3000g" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/110_thumb_G_1499031432821.jpg" alt="泰国榴莲3000g" />
             </a>
             <div class="goods_center">
 				 
@@ -865,7 +865,7 @@ TouchSlide({
         </div>
          </div><div class="flex flex-f-row">                <div class="goodsItem flex_in">
             <a href="goods.php?id=109">
-                <img src="/images/201707/thumb_img/109_thumb_G_1499031314808.jpg" alt="粤盐加碘低钠盐250g" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/109_thumb_G_1499031314808.jpg" alt="粤盐加碘低钠盐250g" />
             </a>
             <div class="goods_center">
 				 
@@ -875,7 +875,7 @@ TouchSlide({
         </div>
                          <div class="goodsItem flex_in">
             <a href="goods.php?id=108">
-                <img src="/images/201707/thumb_img/108_thumb_G_1499031216410.jpg" alt="苏泊尔火红点煎锅.炫彩系列26CM-PJ26E1" />
+                <img src="/fxmsc_v2.0/images/201707/thumb_img/108_thumb_G_1499031216410.jpg" alt="苏泊尔火红点煎锅.炫彩系列26CM-PJ26E1" />
             </a>
             <div class="goods_center">
 				 
@@ -1555,9 +1555,9 @@ $(function() {
   wx.config({
     debug: false,
     appId: '',
-    timestamp: 1542187719,
-    nonceStr: 'RgbluYt3x9cyaPEj',
-    signature: '799091404092020edfa51a94655b123eeb85f410',
+    timestamp: 1542205928,
+    nonceStr: 'olYFDQqDWphExCLU',
+    signature: '10bd9294bf79cce4ed19ae9efc83fdde957dd586',
     jsApiList: [
         'onMenuShareTimeline',
         'onMenuShareAppMessage' 

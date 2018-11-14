@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:10:{i:0;s:47:"D:/WWW/shengxuan2018/themes/shengxian/goods.dwt";i:1;s:61:"D:/WWW/shengxuan2018/themes/shengxian/library/page_header.lbi";i:2;s:57:"D:/WWW/shengxuan2018/themes/shengxian/library/ur_here.lbi";i:3;s:63:"D:/WWW/shengxuan2018/themes/shengxian/library/goods_gallery.lbi";i:4;s:64:"D:/WWW/shengxuan2018/themes/shengxian/library/goods_fittings.lbi";i:5;s:58:"D:/WWW/shengxuan2018/themes/shengxian/library/comments.lbi";i:6;s:63:"D:/WWW/shengxuan2018/themes/shengxian/library/goods_related.lbi";i:7;s:63:"D:/WWW/shengxuan2018/themes/shengxian/library/goods_article.lbi";i:8;s:61:"D:/WWW/shengxuan2018/themes/shengxian/library/page_footer.lbi";i:9;s:63:"D:/WWW/shengxuan2018/themes/shengxian/library/right_sidebar.lbi";}s:7:"expires";i:1541603843;s:8:"maketime";i:1541602043;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:10:{i:0;s:54:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/goods.dwt";i:1;s:68:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/library/page_header.lbi";i:2;s:64:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/library/ur_here.lbi";i:3;s:70:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/library/goods_gallery.lbi";i:4;s:71:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/library/goods_fittings.lbi";i:5;s:65:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/library/comments.lbi";i:6;s:70:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/library/goods_related.lbi";i:7;s:70:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/library/goods_article.lbi";i:8;s:68:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/library/page_footer.lbi";i:9;s:70:"D:/wamp/wamp/www/fxmsc_v2.0/themes/shengxian/library/right_sidebar.lbi";}s:7:"expires";i:1542191838;s:8:"maketime";i:1542190038;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -793,7 +793,8 @@ var _hmt = _hmt || [];
 <script type="text/javascript" src="themes/shengxian/js/easydialog.min.js"></script>
 <script type="text/javascript" src="themes/shengxian/js/lizi_goods.js"></script>
 <div id="wrapper">
-  <div class="here cle"><a href=".">首页</a> <code>&gt;</code> <a href="category.php?id=2">粮油副食</a> <code>&gt;</code> <a href="category.php?id=14">食用油</a> <code>&gt;</code> <a href="category.php?id=96">花生油</a> <code>&gt;</code> 鲁花5S一级花生油</div>  <div class="detail cle"> 
+  <div class="here cle"><a href=".">首页</a> <code>&gt;</code> <a href="category.php?id=2">粮油副食</a> <code>&gt;</code> <a href="category.php?id=14">食用油</a> <code>&gt;</code> <a href="category.php?id=96">花生油</a> <code>&gt;</code> 鲁花5S一级花生油</div>
+  <div class="detail cle"> 
      
     <div class="detail_img" id="detail_img">
   <div class="pic_view" id="li_71"> <a href="images/201707/goods_img/71_P_1498970104365.jpg" class="MagicZoomPlus" id="Zoomer" rel="hint-text: ; selectors-effect: false; selectors-class: current; zoom-distance: 10;zoom-width: 400; zoom-height: 400;"> <img id="J_prodImg"  alt="鲁花5S一级花生油" data-original="images/201707/goods_img/71_P_1498970104365.jpg" src="themes/shengxian/images/spacer.gif" class="loading pic_img_71"> </a> </div>
@@ -812,7 +813,8 @@ var _hmt = _hmt || [];
 <div class="bdsharebuttonbox"><p style="float:left;">分享商品：</p><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a></div>
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>  
   </div>
-</div>    <form action="javascript:addToCart(71)" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
+</div>
+    <form action="javascript:addToCart(71)" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
       
       
       <div class="item-info" id="item-info">
@@ -1356,7 +1358,8 @@ function sleep(d){
           </div>
           <div id="D3" class="z-box sectionbox itemSpan">
 	      <h4>用户评价</h4>
-              <div class="z-detail-com-box" id="ECS_COMMENT">554fcae493e564ee0dc75bdf2ebf94cacomments|a:3:{s:4:"name";s:8:"comments";s:4:"type";i:0;s:2:"id";i:71;}554fcae493e564ee0dc75bdf2ebf94ca</div>          </div>
+              <div class="z-detail-com-box" id="ECS_COMMENT">554fcae493e564ee0dc75bdf2ebf94cacomments|a:3:{s:4:"name";s:8:"comments";s:4:"type";i:0;s:2:"id";i:71;}554fcae493e564ee0dc75bdf2ebf94ca</div>
+          </div>
         </div>
       </div>
 	  
@@ -1702,7 +1705,7 @@ var minute = "分钟";
 var second = "秒";
 var end = "结束";
 var goodsId = 71;
-var now_time = 1541573244;
+var now_time = 1542161246;
 onload = function(){
   changePrice();
   changeKucun();//这里是添加的
