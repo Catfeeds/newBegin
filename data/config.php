@@ -1,5 +1,5 @@
 <?php
-$db_host   = "127.0.0.1:3306";
+$db_host   = "39.105.201.194:3306";
 
 // database name
 $db_name   = "nong";
