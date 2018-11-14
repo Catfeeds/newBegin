@@ -8,7 +8,7 @@ $db_name   = "nong";
 $db_user   = "root";
 
 // database password
-$db_pass   = "";
+$db_pass   = "root";
 
 // table prefix
 $prefix    = "ecs_";
