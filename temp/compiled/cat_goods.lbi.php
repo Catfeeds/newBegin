@@ -44,23 +44,23 @@ if ($this->_foreach['index_image1']['total'] > 0):
   </div>
   <div class="goods">
     <ul>
-    <?php $_from = $this->_var['cat_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_79133800_1541601989');$this->_foreach['goods'] = array('total' => count($_from), 'iteration' => 0);
+    <?php $_from = $this->_var['cat_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_21814700_1542286504');$this->_foreach['goods'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['goods']['total'] > 0):
-    foreach ($_from AS $this->_var['goods_0_79133800_1541601989']):
+    foreach ($_from AS $this->_var['goods_0_21814700_1542286504']):
         $this->_foreach['goods']['iteration']++;
 ?>
-      <li id="li_<?php echo $this->_var['goods_0_79133800_1541601989']['id']; ?>">
+      <li id="li_<?php echo $this->_var['goods_0_21814700_1542286504']['id']; ?>">
         <div class="item">
           <div class="img">
-            <a href="<?php echo $this->_var['goods_0_79133800_1541601989']['url']; ?>">
-              <img data-original="<?php echo $this->_var['goods_0_79133800_1541601989']['thumb']; ?>" src="themes/shengxian/images/spacer.gif" class="loading pic_img_<?php echo $this->_var['goods_0_79133800_1541601989']['id']; ?>" height="150" width="150"></a>
+            <a href="<?php echo $this->_var['goods_0_21814700_1542286504']['url']; ?>">
+              <img data-original="<?php echo $this->_var['goods_0_21814700_1542286504']['thumb']; ?>" src="themes/shengxian/images/spacer.gif" class="loading pic_img_<?php echo $this->_var['goods_0_21814700_1542286504']['id']; ?>" height="150" width="150"></a>
           </div>
           <div class="tit">
-            <a href="<?php echo $this->_var['goods_0_79133800_1541601989']['url']; ?>"><?php echo sub_str($this->_var['goods_0_79133800_1541601989']['name'],12); ?></a></div>
+            <a href="<?php echo $this->_var['goods_0_21814700_1542286504']['url']; ?>"><?php echo sub_str($this->_var['goods_0_21814700_1542286504']['name'],12); ?></a></div>
           <div class="btns">
             <div class="pri j_comPrice">
-              <b class="j_sellPrice"><?php if ($this->_var['goods_0_79133800_1541601989']['promote_price'] != ""): ?><?php echo $this->_var['goods_0_79133800_1541601989']['promote_price']; ?><?php else: ?><?php echo $this->_var['goods_0_79133800_1541601989']['shop_price']; ?><?php endif; ?></b></div>
-            <a class="addtocart j_addToCartAysn" href="javascript:addToCart(<?php echo $this->_var['goods_0_79133800_1541601989']['id']; ?>)">加入购物车</a></div>
+              <b class="j_sellPrice"><?php if ($this->_var['goods_0_21814700_1542286504']['promote_price'] != ""): ?><?php echo $this->_var['goods_0_21814700_1542286504']['promote_price']; ?><?php else: ?><?php echo $this->_var['goods_0_21814700_1542286504']['shop_price']; ?><?php endif; ?></b></div>
+            <a class="addtocart j_addToCartAysn" href="javascript:addToCart(<?php echo $this->_var['goods_0_21814700_1542286504']['id']; ?>)">加入购物车</a></div>
         </div>
       </li>
     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>

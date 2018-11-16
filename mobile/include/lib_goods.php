@@ -1192,6 +1192,7 @@ function get_goods_info($goods_id)
         /* 修正商品图片 */
 
         $row['goods_img']   = get_image_path($goods_id, $row['goods_img']);
+        $row['original_img']   = get_image_path($goods_id, $row['original_img']);
 
         $row['goods_thumb'] = get_image_path($goods_id, $row['goods_thumb'], true);
 
@@ -1212,7 +1213,7 @@ function get_goods_info($goods_id)
         $row['gmtime']  = local_date('Y, m-1, d, H, i, s',$time);
         $row['sale_start_time']  = local_date('Y, m-1, d, H, i, s',$row['sale_start_date']);
 		/* 秒杀时间倒计时 结束 */
-
+        // var_dump($row);die;
         return $row;
 
     }
@@ -1439,6 +1440,7 @@ function get_goods_gallery($goods_id)
         $row[$key]['image_width'] = $GLOBALS['_CFG']['image_width'];
         $row[$key]['image_height'] = $GLOBALS['_CFG']['image_height'];
     }
+
     return $row;
 }
 
@@ -3080,6 +3082,11 @@ function pre_sale_info($pre_sale_id, $current_num = 0)
 
 	$ext_info = unserialize($pre_sale['ext_info']);
 	$pre_sale = array_merge($pre_sale, $ext_info);
+
+    $pre_sale['goods_img']   = get_image_path($goods_id, $pre_sale['goods_img']);
+    $pre_sale['original_img']   = get_image_path($goods_id, $pre_sale['original_img']);
+
+    $pre_sale['goods_thumb'] = get_image_path($goods_id, $pre_sale['goods_thumb'], true);
 
 	/* 格式化时间 */
 	$pre_sale['formated_start_date'] = local_date('Y-m-d H:i', $pre_sale['start_time']);

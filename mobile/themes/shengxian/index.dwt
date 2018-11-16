@@ -207,54 +207,8 @@ TouchSlide({
     </ul>
   </div>
   <!--快速连接e-->
-<!-- #BeginLibraryItem "/library/new_articles.lbi" --><!-- #EndLibraryItem -->  
-  
-<div class="blank2"></div>
-<div class="mainCon">
-  <dl class="wholeTime">
-     <dt class="wholePoint surper clearfix">
-        <span class="san fl">特色市场</span>
-     </dt>
-     <dd>
-     <div class="superBan clearfix">
-       <div class="featurBan1 fl">
-         <!-- TemplateBeginEditable name="特色市场左侧2张广告图" -->
-<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
 
-{insert name='ads' id=$ads_id num=$ads_num}
- <!-- #EndLibraryItem -->
-<!-- TemplateEndEditable -->
-       </div>
-       <div class="featurBan2 fl">
-         <!-- TemplateBeginEditable name="特色市场右侧1张广告图" -->
-<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
 
-{insert name='ads' id=$ads_id num=$ads_num}
- <!-- #EndLibraryItem -->
-<!-- TemplateEndEditable -->
-       </div>
-     </div>        
-     </dd>
-  </dl>
-</div>
-<div class="blank2"></div>
-<div class="mainCon">
-  <dl class="wholeTime">
-    <dt class="wholePoint surper clearfix">
-      <span class="san fl">热门市场</span>
-    </dt>
-    <dd>
-      <div class="superBan brandWallBan clearfix">
-         <!-- TemplateBeginEditable name="热门市场" -->
-<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
-
-{insert name='ads' id=$ads_id num=$ads_num}
- <!-- #EndLibraryItem -->
-<!-- TemplateEndEditable -->
-      </div>
-    </dd>
-  </dl>
-</div>
 
 <!-- TemplateBeginEditable name="中部主区域" -->
 <!-- #BeginLibraryItem "/library/recommend_promotion.lbi" -->

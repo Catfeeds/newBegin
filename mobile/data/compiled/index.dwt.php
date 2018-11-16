@@ -208,45 +208,8 @@ if ($this->_foreach['nav_middle_list']['total'] > 0):
     </ul>
   </div>
   
-<?php echo $this->fetch('library/new_articles.lbi'); ?>  
-  
-<div class="blank2"></div>
-<div class="mainCon">
-  <dl class="wholeTime">
-     <dt class="wholePoint surper clearfix">
-        <span class="san fl">特色市场</span>
-     </dt>
-     <dd>
-     <div class="superBan clearfix">
-       <div class="featurBan1 fl">
-         
-<?php $this->assign('ads_id','2'); ?><?php $this->assign('ads_num','2'); ?><?php echo $this->fetch('library/ad_position.lbi'); ?>
 
-       </div>
-       <div class="featurBan2 fl">
-         
-<?php $this->assign('ads_id','3'); ?><?php $this->assign('ads_num','1'); ?><?php echo $this->fetch('library/ad_position.lbi'); ?>
 
-       </div>
-     </div>        
-     </dd>
-  </dl>
-</div>
-<div class="blank2"></div>
-<div class="mainCon">
-  <dl class="wholeTime">
-    <dt class="wholePoint surper clearfix">
-      <span class="san fl">热门市场</span>
-    </dt>
-    <dd>
-      <div class="superBan brandWallBan clearfix">
-         
-<?php $this->assign('ads_id','4'); ?><?php $this->assign('ads_num','9'); ?><?php echo $this->fetch('library/ad_position.lbi'); ?>
-
-      </div>
-    </dd>
-  </dl>
-</div>
 
 
 <?php echo $this->fetch('library/recommend_promotion.lbi'); ?>

@@ -56,6 +56,7 @@ return;
 /* ------------------------------------------------------ */
 function action_list ()
 {
+
 	$smarty = $GLOBALS['smarty'];
 	
 	/* 取得预售活动总数 */
@@ -115,7 +116,6 @@ function action_list ()
 		
 		assign_dynamic('pre_sale_list');
 	}
-	
 	/* 显示模板 */
 	$smarty->display('pre_sale_list.dwt', $cache_id);
 }
@@ -139,6 +139,7 @@ function action_view ()
 	
 	/* 取得预售活动信息 */
 	$pre_sale = pre_sale_info($pre_sale_id);
+	// var_dump($pre_sale);
 	
 	if(empty($pre_sale))
 	{
@@ -150,7 +151,6 @@ function action_view ()
 	// header("Location: ./\n");
 	// exit;
 	// }
-	
 	/* 评价数量 */
 	$pre_sale['comment_count'] = goods_comment_count($pre_sale['goods_id']);
 	/* 累计销量 */
@@ -176,6 +176,7 @@ function action_view ()
 		/* 取得预售商品信息 */
 		$goods_id = $pre_sale['goods_id'];
 		$goods = get_goods_info($goods_id);
+		// var_dump($goods);die;
 		if(empty($goods))
 		{
 			ecs_header("Location: pre_sale.php\n");
@@ -184,8 +185,8 @@ function action_view ()
 		$goods['url'] = build_uri('goods', array(
 			'gid' => $goods_id
 		), $goods['goods_name']);
-		
 		$goods = array_merge($goods, $pre_sale);
+		// var_dump($pre_sale);die;
 		
 		$gift_integral = $pre_sale['gift_integral'];
 		
@@ -204,7 +205,7 @@ function action_view ()
 		$smarty->assign('helps', get_shop_help()); // 网店帮助
 		$smarty->assign('top_goods', get_top10()); // 销售排行
 		$smarty->assign('promotion_info', get_promotion_info());
-		
+		// var_dump($goods);die;
 		// yyy添加start
 		$count1 = $GLOBALS['db']->getOne("SELECT COUNT(*) FROM " . $GLOBALS['ecs']->table('comment') . " where comment_type=0 and id_value ='$goods_id' and status=1");
 		$smarty->assign('review_count', $count1); // 评论数
@@ -640,6 +641,8 @@ function pre_sale_list ($size, $page)
 		if(empty($pre_sale['goods_thumb']))
 		{
 			$pre_sale['goods_thumb'] = get_image_path($pre_sale['goods_id'], $pre_sale['goods_thumb'], true);
+		}else{
+			$pre_sale['goods_thumb'] = 'new/newBegin/'.$pre_sale['goods_thumb'];
 		}
 		/* 处理链接 */
 		$pre_sale['url'] = build_uri('pre_sale', array(
@@ -649,7 +652,7 @@ function pre_sale_list ($size, $page)
 		/* 加入数组 */
 		$ps_list[] = $pre_sale;
 	}
-	
+	// var_dump($ps_list);exit;
 	return $ps_list;
 }
 

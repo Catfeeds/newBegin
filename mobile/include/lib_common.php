@@ -1690,7 +1690,7 @@ function get_promotion_info($goods_id = '')
 
     array_multisort($sort_time, SORT_NUMERIC, SORT_DESC, $arr);
 
-
+    // var_dump($arr);exit;
 
     return $arr;
 
@@ -4452,8 +4452,6 @@ function get_image_path($goods_id, $image='', $thumb=false, $call='goods', $del=
 
 {
     $url = empty($image) ? $GLOBALS['_CFG']['no_picture'] : 'new/newBegin/' . $image;
-
-    // echo $url;exit;
 
     return $url;
 
